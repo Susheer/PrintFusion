@@ -22,7 +22,7 @@ const createWindow = () => {
           <title>PrintFusion</title>
         </head>
         <body>
-          <h1>Welcome to Electron!</h1>
+          <h1>Welcome to PrintFusion!</h1>
           <h5>default printer: ${printerName}</h5>
           <h4> Printer List</h4>
           <ul>
