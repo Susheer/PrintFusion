@@ -1,0 +1,18 @@
+{
+  "name": "printfusion",
+  "version": "1.0.0",
+  "description": "PrintFusion is an all-in-one testing environment for the  addon. Easily simulate and validate printing operations with a sleek Electron-powered interface.",
+  "main": "main.js",
+  "author": "Sudheer Gupta",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^35.1.4",
+    "prebuild-install": "^7.1.3"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "@thesusheer/electron-printer": "^2.0.4"
+  }
+}
